@@ -1,0 +1,91 @@
+/*Mian Hashir_E_I26-3278*/
+
+
+body {
+    background-color: lightyellow;
+    color: darkblue;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    font-size: 18px;
+}
+
+.main-title {
+    text-align: center;
+    color: red;
+    font-size: 42px; 
+}
+
+.menu-container {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.deals-box {
+    float: left;
+    width: 28%;
+}
+
+.deals-box h2 {
+    color: darkred;
+    font-size: 28px; 
+}
+
+.deals-box p {
+    font-size: 20px; 
+    line-height: 1.6;
+}
+
+.center-image-box {
+    float: left;
+    width: 44%;
+    text-align: center;
+}
+
+.deal-img {
+    width: 320px;       
+    height: 320px;      
+    border-radius: 50%;
+    border: 4px solid blue;
+    object-fit: cover;
+}
+
+.main-items-box {
+    float: right;
+    width: 28%;
+    text-align: right;
+}
+
+.main-items-box h2 {
+    color: darkred;
+    font-size: 28px; 
+}
+
+.main-items-box p {
+    font-size: 20px; 
+    line-height: 1.6;
+}
+
+.contact-box {
+    float: left;
+    width: 50%;
+    margin-top: 40px;
+    clear: both;
+    font-size: 20px;
+}
+
+.order-box {
+    float: right;
+    width: 45%;
+    text-align: right;
+    margin-top: 40px;
+}
+
+.order-btn {
+    background-color: orange;
+    color: white;
+    border-radius: 8px;
+    padding: 12px 24px; 
+    border: none;
+    font-size: 20px;    
+    font-weight: bold;
+}
