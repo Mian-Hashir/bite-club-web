@@ -89,3 +89,51 @@ body {
     font-size: 20px;    
     font-weight: bold;
 }
+.navbar {
+    text-align: center;
+    margin-bottom: 25px;
+    padding: 10px;
+    border-top: 2px solid blue;
+    border-bottom: 2px solid blue;
+}
+.navbar a {
+    color: darkblue;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 18px;
+    padding: 6px 12px;
+    border-radius: 6px;
+}
+.navbar a:hover, .navbar a.active {
+    background-color: orange;
+    color: white;
+}
+
+.form-container {
+    width: 60%;
+    margin: 30px auto;
+    padding: 20px;
+    border: 3px solid blue;
+    border-radius: 10px;
+}
+.form-container h2 {
+    color: darkred;
+    font-size: 28px;
+}
+.form-container label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.form-container input, .form-container select, .form-container textarea {
+    width: 95%;
+    padding: 8px;
+    margin-top: 6px;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: darkblue;
+    border: 2px solid blue;
+    border-radius: 6px;
+}

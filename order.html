@@ -1,0 +1,49 @@
+<!--Mian Hashir_E_I26-3278-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bite Club - Order Online</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 class="main-title">Bite Club - Online Order</h1>
+
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="menu.html">Full Menu</a>
+        <a href="order.html" class="active">Order Online</a>
+        <a href="contact.html">Contact Us</a>
+    </div>
+
+    <div class="form-container">
+        <h2>Place Your Order</h2>
+        <form action="#" method="post">
+            <label for="customer-name">Full Name:</label>
+            <input type="text" id="customer-name" name="customer-name" placeholder="Enter your name" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="text" id="phone" name="phone" placeholder="0300-1234567" required>
+
+            <label for="deal-select">Select Deal or Item:</label>
+            <select id="deal-select" name="deal-select">
+                <option value="deal1">Deal 1: Burger + Fries - Rs. 600</option>
+                <option value="deal2">Deal 2: Burger + Drink - Rs. 800</option>
+                <option value="deal3">Deal 3: Burger + Fries + Drink - Rs. 1200</option>
+                <option value="zinger">Zinger Burger - Rs. 500</option>
+            </select>
+
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" value="1" min="1" max="20">
+
+            <label for="address">Delivery Address:</label>
+            <textarea id="address" name="address" rows="3" placeholder="House #, Street, City" required></textarea>
+
+            <br><br>
+            <button type="submit" class="order-btn">Confirm Order</button>
+        </form>
+    </div>
+
+</body>
+</html>
